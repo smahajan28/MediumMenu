@@ -10,11 +10,11 @@ import UIKit
 
 public class MediumMenuItem {
     public var title: String?
-    public var completion: CompletionHandler?
+    public var completion: completionHandler?
 
     init() {}
     
-    public convenience init(title: String, completion: CompletionHandler) {
+    public convenience init(title: String, completion: completionHandler) {
         self.init()
         self.title = title
         self.completion = completion
